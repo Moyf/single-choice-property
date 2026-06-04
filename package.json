@@ -13,7 +13,8 @@
     "release:pre": "npm run build && npm run version && npm run changelog:u",
     "release:tag": "node scripts/release-tag.mjs",
     "lint": "eslint . --ext .ts,.tsx",
-    "lint:fix": "eslint . --ext .ts,.tsx --fix"
+    "lint:fix": "eslint . --ext .ts,.tsx --fix",
+    "lint:obsidian": "npx eslint@9 --config eslint.obsidian.mjs \"main.ts\" \"src/**/*.ts\""
   },
   "keywords": [
     "obsidian",
@@ -23,8 +24,12 @@
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.17.10",
+    "@typescript-eslint/eslint-plugin": "^8.60.1",
+    "@typescript-eslint/parser": "^8.60.1",
     "builtin-modules": "^4.0.0",
     "esbuild": "^0.24.0",
+    "eslint": "^9.39.4",
+    "eslint-plugin-obsidianmd": "^0.3.0",
     "obsidian": "latest",
     "typescript": "^5.7.2"
   }

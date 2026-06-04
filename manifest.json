@@ -2,7 +2,7 @@
   "id": "single-choice-property",
   "name": "Single Choice Property",
   "version": "0.1.0",
-  "minAppVersion": "1.5.0",
+  "minAppVersion": "1.11.0",
   "description": "Keep selected list properties to only their latest value.",
   "author": "Moyf",
   "isDesktopOnly": false

@@ -2,6 +2,8 @@
 
 Single Choice Property keeps selected Obsidian list properties to a single latest value. It is useful when you want a property like `status` or `priority` to behave like a single-choice field while still using Obsidian's list-style property editor.
 
+Requires Obsidian `1.11.0` or newer.
+
 By default, the plugin watches the `status` property. When a watched property becomes a list with more than one value, the plugin keeps only the last value and can show a Notice.
 
 Example:

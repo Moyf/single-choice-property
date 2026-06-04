@@ -61,7 +61,7 @@ export class SingleChoicePropertySettingTab extends PluginSettingTab {
       .setName(messages.settings.watchedPropertiesName)
       .setDesc(messages.settings.watchedPropertiesDesc)
       .addText((text) =>
-        text.setPlaceholder("status").then((component) => {
+        text.setPlaceholder("Status").then((component) => {
           propertyInput = component;
           new PropertySuggest(this.app, component.inputEl, propertyTypes).onSelect((value) => {
             component.setValue(value.property);

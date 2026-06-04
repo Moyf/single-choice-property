@@ -12,6 +12,10 @@
 - **Optional notices**: Add a default-enabled setting to show a Notice when the plugin automatically updates a property, including the note name, property name, and kept value.
 - **Localization**: Add English and Chinese UI text for settings, warnings, and notices.
 
+### ⚡ Changed
+
+- **Minimum app version**: Set `minAppVersion` to `1.11.0` to match the Obsidian APIs used for SettingGroup and property metadata.
+
 <details>
 <summary>中文说明（点击展开）</summary>
 
@@ -24,6 +28,10 @@
 - **属性区刷新**：自动清理后精确刷新 Obsidian metadata editor 中被更新的属性行，避免重建整个页面。
 - **可选通知**：添加默认开启的通知设置，自动更新属性时显示笔记名、属性名和保留值。
 - **本地化**：为设置、警告和通知添加英文与中文界面文本。
+
+### ⚡ 变更
+
+- **最低应用版本**：将 `minAppVersion` 设为 `1.11.0`，以匹配 SettingGroup 和属性元数据相关 Obsidian API。
 
 </details>
 
