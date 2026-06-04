@@ -1,0 +1,31 @@
+{
+  "name": "single-choice-property",
+  "version": "0.1.0",
+  "description": "Keep selected Obsidian properties to a single latest list value.",
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+    "build:local": "npm run build && npm run copy-to-local",
+    "copy-to-local": "node scripts/copy-to-local.mjs",
+    "version": "node scripts/version-bump.mjs",
+    "changelog:u": "conventional-changelog -p angular -i CHANGELOG.md -s -u",
+    "release:pre": "npm run build && npm run version && npm run changelog:u",
+    "release:tag": "node scripts/release-tag.mjs",
+    "lint": "eslint . --ext .ts,.tsx",
+    "lint:fix": "eslint . --ext .ts,.tsx --fix"
+  },
+  "keywords": [
+    "obsidian",
+    "obsidian-plugin"
+  ],
+  "author": "Moyf",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.17.10",
+    "builtin-modules": "^4.0.0",
+    "esbuild": "^0.24.0",
+    "obsidian": "latest",
+    "typescript": "^5.7.2"
+  }
+}

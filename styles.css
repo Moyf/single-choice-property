@@ -1,0 +1,29 @@
+.single-choice-property-warning {
+  color: var(--text-error);
+}
+
+.single-choice-property-property-list {
+  margin-top: var(--size-4-4);
+}
+
+.single-choice-property-suggestion {
+  align-items: center;
+  display: flex;
+  gap: var(--size-4-8);
+}
+
+.single-choice-property-suggestion-name {
+  flex: 1 1 auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.single-choice-property-suggestion-type {
+  background: var(--background-modifier-hover);
+  border-radius: var(--radius-s);
+  color: var(--text-muted);
+  flex: 0 0 auto;
+  font-size: var(--font-ui-smaller);
+  padding: 0 var(--size-4-2);
+}
