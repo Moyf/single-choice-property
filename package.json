@@ -1,6 +1,6 @@
 {
   "name": "single-choice-property",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Keep selected Obsidian properties to a single latest list value.",
   "main": "dist/main.js",
   "scripts": {

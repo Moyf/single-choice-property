@@ -1,5 +1,24 @@
 # Changelog
 
+## [0.1.1](https://github.com/Moyf/single-choice-property/compare/0.1.0...0.1.1) - 2026-06-04
+
+### 🐛 Fixed
+
+- **Release provenance**: Add a GitHub Actions release workflow that builds release assets in CI and creates artifact attestations for `main.js`, `manifest.json`, and `styles.css`.
+- **License metadata**: Add the MIT license file so the repository declares the standard open-source license used by the plugin.
+
+<details>
+<summary>中文说明（点击展开）</summary>
+
+### 🐛 修复
+
+- **发布来源证明**：添加 GitHub Actions 发布流程，在 CI 中构建发布产物，并为 `main.js`、`manifest.json`、`styles.css` 创建 artifact attestation。
+- **许可证信息**：添加 MIT license 文件，明确插件使用的标准开源许可证。
+
+</details>
+
+---
+
 ## [0.1.0] - 2026-06-04
 
 ### 🚀 Added
