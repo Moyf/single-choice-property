@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.1.2](https://github.com/Moyf/single-choice-property/compare/0.1.1...0.1.2) - 2026-06-04
+
+### 🐛 Fixed
+
+- **Build dependencies**: Replace the `builtin-modules` package with Node.js native `builtinModules` from `node:module` in the esbuild configuration.
+
+<details>
+<summary>中文说明（点击展开）</summary>
+
+### 🐛 修复
+
+- **构建依赖**：在 esbuild 配置中用 Node.js 原生 `node:module` 的 `builtinModules` 替换 `builtin-modules` 包。
+
+</details>
+
+---
+
 ## [0.1.1](https://github.com/Moyf/single-choice-property/compare/0.1.0...0.1.1) - 2026-06-04
 
 ### 🐛 Fixed
