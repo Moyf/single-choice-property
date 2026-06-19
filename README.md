@@ -4,7 +4,7 @@ English | [简体中文](https://github.com/moyf/single-choice-property#单选�
 
 This is a simple single-feature plugin: Single Choice Property (SCP for short — yes, I'm on purpose.).
 
-![demo](<Assets/SCP_demo.gif>)
+![demo](Assets/SCP_demo.gif)
 
 Its function is as shown in the image: it can **restrict a specific list property to a single value**. When added, it directly overwrites the original value without needing to manually delete the old one.
 
@@ -44,7 +44,7 @@ When a watched property becomes a list with more than one value, the plugin keep
 
 这是个功能非常单纯的插件：单项——选择——属性（Single Choice Property，简称 SCP，没错，我故意的）
 
-![demo](<Assets/SCP_demo.gif>)
+![demo](Assets/SCP_demo.gif)
 
 作用如图：可以把某个特定的列表属性限制为**只能留一个值**。添加新值时，直接覆盖原来的值，不需要你手动先删掉旧值。
 
