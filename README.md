@@ -38,6 +38,10 @@ You can add or remove watched property names in the plugin settings.
 
 When a watched property becomes a list with more than one value, the plugin keeps only the last value and can show a Notice.
 
+### Support
+
+If you like Single Choice Property, consider [buying me a coffee on Ko-fi](https://ko-fi.com/moy) ☕
+
 # 单选属性
 
 [English](https://github.com/moyf/single-choice-property#single-choice-property) | 简体中文
@@ -76,4 +80,8 @@ When a watched property becomes a list with more than one value, the plugin keep
 ![alt text](assets/SCP_setting.png)
 
 当某个被监听的属性变成包含多个值的列表时，插件会只保留最后一个值，并且会（可选）弹出 Notice 提示。
+
+### 支持作者
+
+如果 Single Choice Property 对你有帮助，欢迎[请我喝杯咖啡（Ko-fi）](https://ko-fi.com/moy) ☕
 
