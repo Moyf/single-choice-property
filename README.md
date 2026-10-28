@@ -38,6 +38,16 @@ You can add or remove watched property names in the plugin settings.
 
 When a watched property becomes a list with more than one value, the plugin keeps only the last value and can show a Notice.
 
+### More from Moy
+
+If you appreciate my plugin design and quality, check out my other Obsidian plugins:
+
+| Plugin name | Description | Stats |
+| --- | --- | --- |
+| [Keyword Decorator](https://github.com/Moyf/keyword-decorator) | Keyword highlighting and decoration with Emoji/Lucide/image/SVG markers and once-per-note decoration. <!-- Draft; pending Moy review. --> | [![Obsidian Downloads](https://img.shields.io/badge/dynamic/json?logo=obsidian&logoColor=white&color=%23483699&label=downloads&query=%24%5B%22keyword-decorator%22%5D.downloads&url=https%3A%2F%2Fraw.githubusercontent.com%2Fobsidianmd%2Fobsidian-releases%2Fmaster%2Fcommunity-plugin-stats.json)](https://obsidian.md/plugins?id=keyword-decorator) [![GitHub Stars](https://img.shields.io/github/stars/Moyf/keyword-decorator?logo=github&label=Stars)](https://github.com/Moyf/keyword-decorator/stargazers) |
+
+> See all my plugins on my [Obsidian Community page](https://community.obsidian.md/users/moyf).
+
 ### Support
 
 If you like Single Choice Property, consider [buying me a coffee on Ko-fi](https://ko-fi.com/moy) ☕
@@ -81,7 +91,16 @@ If you like Single Choice Property, consider [buying me a coffee on Ko-fi](https
 
 当某个被监听的属性变成包含多个值的列表时，插件会只保留最后一个值，并且会（可选）弹出 Notice 提示。
 
+### 来自 Moy 的更多插件
+
+如果你欣赏我的插件设计和质量，可以看看我的其他 Obsidian 插件：
+
+| 插件名称 | 简介 | 数据 |
+| --- | --- | --- |
+| [Keyword Decorator](https://github.com/Moyf/keyword-decorator) | 关键词高亮与装饰，支持 Emoji/Lucide/图片/SVG 标记与整篇首次装饰。 <!-- Draft; pending Moy review. --> | [![Obsidian Downloads](https://img.shields.io/badge/dynamic/json?logo=obsidian&logoColor=white&color=%23483699&label=downloads&query=%24%5B%22keyword-decorator%22%5D.downloads&url=https%3A%2F%2Fraw.githubusercontent.com%2Fobsidianmd%2Fobsidian-releases%2Fmaster%2Fcommunity-plugin-stats.json)](https://obsidian.md/plugins?id=keyword-decorator) [![GitHub Stars](https://img.shields.io/github/stars/Moyf/keyword-decorator?logo=github&label=Stars)](https://github.com/Moyf/keyword-decorator/stargazers) |
+
+> 全部插件见 [Moy 的 Obsidian Community 页面](https://community.obsidian.md/users/moyf)。
+
 ### 支持作者
 
 如果 Single Choice Property 对你有帮助，欢迎[请我喝杯咖啡（Ko-fi）](https://ko-fi.com/moy) ☕
-
